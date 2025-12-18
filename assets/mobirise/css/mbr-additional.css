@@ -877,6 +877,19 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-v5KWtYPYlP {
+  padding-top: 15px;
+  padding-bottom: 45px;
+  background-color: #1b1e23;
+}
+.cid-v5KWtYPYlP .mbr-text,
+.cid-v5KWtYPYlP blockquote {
+  color: #767676;
+}
+.cid-v5KWtYPYlP .mbr-text {
+  color: #c1c1c1;
+  text-align: left;
+}
 .cid-uXHvsIBDEb {
   background: #1b1e23;
   padding-top: 0px;
