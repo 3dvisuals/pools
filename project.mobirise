@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PoolsofthedeepVR",
-    "currentPage": "index.html",
+    "currentPage": "attributions.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -276,10 +276,10 @@
         }
       ]
     },
-    "index.html": {
+    "attributions.html": {
       "settings": {
-        "meta_descr": "Pools of the Deep VR",
-        "title": "Pools of the Deep VR",
+        "meta_descr": "",
+        "title": "Attributions",
         "order": 3
       },
       "components": [
@@ -308,7 +308,7 @@
             }
           },
           "_name": "header16",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#1b1e23\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Pools of the Deep VR</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>A liminal explorer...</i><br><br><b>Introduction:</b><br><br>You will explore carefully created liminal spaces that emotionally connect with the surroundings. There is no need to rush, there is no stress. You play it at your own pace. Walk, swim, explore. In this eerie and surreal adventure you will collect puzzle pieces scattered through the levels.<br><br><b>Environments:</b><br><br>The project will have around 6 levels, each with a distinct style. Right now I have the first level completed (Roman baths inspired). The second one (Ancient Egyptian tomb) is on its way and soon will be tested.<br><br><b>Game play: </b><br><br>One of the main ideas of this game is to create a eerie / surreal feeling in the player. Sense of being alone, and explore. The player has some tools such as a bow / arrow and a lamp. The player can shoot with the arch the floating puzzle pieces and open doors.<br><br><b>Platform:</b><br><br>The game will be initially launched as a PCVR game on Steam. There is the possibility to transform the game into a non VR flat PC game. Another possibility is to convert it into a Standalone project for Quest / Frame headsets and other VR platforms.<br><br>If you have any questions please contact me&nbsp;<a href=\"mailto:3drenderingdesign@gmail.com\">3drenderingdesign@gmail.com</a><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#1b1e23\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Pools of the Deep VR</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i><b>Attribution list</b></i><br><br>\"Greek Shield\" (https://skfb.ly/o8FXt) by emelyarules is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Amazon frieze -  British Museum\" (https://skfb.ly/ow86u) by Arqueomodel3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Plaque des Ergastines (Louvre museum)\" (https://skfb.ly/prXsr) by Antoine Dresen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Neptú, Biblioteca Museu Víctor Balaguer\" (https://skfb.ly/o7vNR) by Giravolt is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>“Mermaid” (https://skfb.ly/6vp9r) by Moshe Caine is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Gold coin\" (https://skfb.ly/oCDzo) by mikeW is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Flying Drone Character\" (https://assetstore.unity.com/packages/3d/characters/robots/flying-drone-character-321592)&nbsp; by MyNameIsVoo.<br><br>\"Banana man\" (https://assetstore.unity.com/packages/3d/characters/humanoids/banana-man-196830) by&nbsp;Banana Yellow Games.<br><br>“Roman Bronze Theater Mask” (https://skfb.ly/ptNNG) by yugengen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Terracotta Theatrical Mask” (https://skfb.ly/ptMAG) by yugengen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Satyr Roman Mask” (https://skfb.ly/ptLXM) by yugengen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Colossal Marble Head Of Constantine\" (https://sketchfab.com/3d-models/colossal-marble-head-of-constantine-textured-81bc6bcf201c4c0e9128d5042c230b1f) by&nbsp;Glenn Gunhouse&nbsp;is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Free Rubber Duck 3d Model\" (https://skfb.ly/oGQXr) by Ryan King Art is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Colossal statue of Constantine: foot\" (https://www.myminifactory.com/object/3d-print-colossal-statue-of-constantine-foot-33164) by ScantheWorld&nbsp;is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Aristoteles - final\" (https://skfb.ly/o99UI) by edioudi is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"Insectoid Crab Monster\" (https://assetstore.unity.com/packages/3d/characters/insectoid-crab-monster-lurker-of-the-shores-20-animations-107223).<br><br>“Egyptian Cat Statue” (https://skfb.ly/6ACLr) by Ankledot is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Coffins of Pa-di-mut, Mut-iy-y, and Ankh-Khonsu” (https://skfb.ly/6QTHw) by Harvard Museum of the Ancient Near East is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Egyptian Head” (https://skfb.ly/6WLWq) by IU Indianapolis University Library is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Egyptian Head” (https://skfb.ly/MTXV) by MSU Broad Art Museum is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Egyptian necklace” (https://skfb.ly/oFnEU) by C.J. Goldman is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>“Egyptian Statue” (https://skfb.ly/oI8x6) by kckaiwei is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n<br>\n<br>“Giant sculpture of a scarab beetle (update '16)” (https://skfb.ly/K6ND) by Thomas Flynn is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n<br>\n<br>“Egyptian-style sphinx statue” (https://skfb.ly/oENxw) by Sofia Nasopoulou is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n<br>\n<br>“Egyptian Fountain, Paris” (https://skfb.ly/6ZLnF) by Oscar Falmer is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).\n<br>\n<br>“Kaemwaset Kneeling with an Emblem of Hathor” (https://skfb.ly/6QW7V) by iuegypt is licensed under Creative Commons Attribution‑NoDerivs (http://creativecommons.org/licenses/by-nd/4.0/).\n<br>\n<br>“Statue of Ramesses III” (https://skfb.ly/Ws8w) by Abby Gancz is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>“Statue of Khafre, Egyptian Museum, Cairo” (https://skfb.ly/6R7uV) by danderson4 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Egyptian Vase (Free)” (https://skfb.ly/6XPCr) by wolfgar74 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>\n<br>“Egyptian Lotus Vase” (https://skfb.ly/6U9V8) by Aurorastorm is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br><br>\"The Greylands: One-Handed Melee Weapons\" (https://assetstore.unity.com/packages/3d/props/weapons/the-greylands-one-handed-melee-weapons-221680).<br><br>\"RunesPortalsAndDemons\" (https://assetstore.unity.com/packages/3d/environments/fantasy/runesportalsanddemons-85098).</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "uXHkuWHS8U",
@@ -317,155 +317,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "overflow": "hidden",
-            "box-sizing": "border-box",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".row > .row": {
-              "display": "block"
-            },
-            ".mbr-gallery-item": {
-              "width": "100%"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              }
-            },
-            ".mbr-gallery-item > div": {
-              "position": "relative",
-              "&:hover": {
-                ".mbr-gallery-title::before": {
-                  "background": "transparent !important"
-                },
-                "&:before": {
-                  "opacity": "@overlayOpacity !important"
-                }
-              }
-            },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "z-index": "2",
-              "&:before": {
-                "content": "\" \"",
-                "width": "100%",
-                "height": "100%",
-                "top": "0",
-                "left": "0",
-                "z-index": "-1",
-                "position": "absolute",
-                "background": "@overlayColor !important",
-                "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out",
-                "& when (@gradOverlay)": {
-                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-                }
-              }
-            }
-          },
-          "_name": "gallery4",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#1b1e23\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"4\" mbr-gallery-second-count=\"1\" mbr-gallery-third-count=\"4\" mbr-gallery-fourth-count=\"4\"></div>\n    </div>\n\n</section>",
-          "_anchor": "gallery4-14h",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "v5KK2FACie",
-          "_protectedParams": [
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "gallery": [
-              {
-                "tags": "Awesome",
-                "videoPreview": "file:///D:/Documents/Accounts/Mobirise_3DRD/assets/images/mobirise2025824_617462025-8-3_9-52-8.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/RmmcMmqw-fE?si=rt1Zyuj03ZjGqs_A",
-                "image": "@PROJECT_PATH@/assets/images/1-1920x1080.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1-1920x1080-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Paris Airshow 2023",
-                "active": true
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2-1920x1080.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2-1920x1080-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Paris Airshow 2023",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/3-1920x1080.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3-1920x1080-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Paris Airshow 2023",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "file:///D:/Documents/Accounts/Mobirise_3DRD/assets/images/mobirise2025824_617462025-8-3_9-52-8.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/RmmcMmqw-fE?si=rt1Zyuj03ZjGqs_A",
-                "image": "@PROJECT_PATH@/assets/images/4-1920x1080.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/4-1920x1080-800x450.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Paris Airshow 2023",
-                "active": false
-              }
-            ]
-          }
         },
         {
           "alias": false,
@@ -487,40 +338,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "v5KWtYPYlP",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background": "@bgColor",
-            "& when (@fullWidth = false)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(45deg, @bgColor, @color2)"
-            },
-            ".video-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".video-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "video2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#1b1e23\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/_QyRtdKs3Vk?si=oxJP5_5smNpzSIl-&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
-          "_anchor": "video2-13x",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "uXHvsIBDEb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
